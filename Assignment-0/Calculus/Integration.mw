@@ -1,0 +1,4 @@
+with(Maplets[Elements]); 
+maplet := Maplet(InputDialog['ID1']("Enter a function, like how you would in Maple, to differentiate", 'onapprove' = Shutdown(['ID1']), 'oncancel' = Shutdown())); 
+f := parse(Maplets:-Display(maplet)[]);
+i := int(f, x);
