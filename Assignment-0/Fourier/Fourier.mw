@@ -1,0 +1,5 @@
+restart; with(plots):
+
+L := [seq(5*2^i, i = 0 .. 7)]; 
+S := seq(`$`(plot(add(2/((2*k-1)*Pi*sin((2*k-1)*Pi*x)), k = 1 .. n), x = -1 .. 1), 12), n = L); 
+plots[display](S, insequence = true, scaling = constrained);
