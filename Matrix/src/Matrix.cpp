@@ -3,16 +3,6 @@
 
 using namespace std;
 
-//Matrix::Matrix()
-//{
-//    //ctor
-//}
-//
-//Matrix::~Matrix()
-//{
-//    //dtor
-//}
-
 int main()
 {
     int r,c;
